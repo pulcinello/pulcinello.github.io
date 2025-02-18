@@ -1,6 +1,6 @@
 baseURL = 'https://pulcinello.github.io'
 languageCode = 'en-us'
-title = 'flashback'
+title = 'thom the obscure'
 theme = 'typo'
 
 [taxonomies]
