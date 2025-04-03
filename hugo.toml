@@ -34,7 +34,10 @@ listSummaries = false
 listDateFormat = '2 Jan 2006'
 
 # Breadcrumbs
-breadcrumbs = true
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
 
 # Syntax highlight on code blocks
 [markup]
