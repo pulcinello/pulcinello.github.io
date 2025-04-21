@@ -1,6 +1,6 @@
 +++
 title = 'Pixelbook Go'
-date = 2024-04-03T10:16:13+07:00
+date = 2025-04-03T10:16:13+07:00
 draft = false
 +++
 
