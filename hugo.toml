@@ -2,6 +2,7 @@ baseURL = 'https://pulcinello.github.io'
 languageCode = 'en-us'
 title = 'thom the obscure'
 theme = 'typo'
+contentDir = 'content/posts'
 
 [taxonomies]
 tag = 'tags'
