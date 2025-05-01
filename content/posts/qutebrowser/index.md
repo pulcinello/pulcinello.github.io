@@ -1,7 +1,7 @@
 +++
 title = 'qutebrowser'
 date = 2025-05-01T14:27:13+08:00
-draft = false
+draft = true
 +++
 
 以下是为qutebrowser撰写的十个文章篇名建议，篇名简洁且具有吸引力，适合介绍、教程或深度分析等内容：
