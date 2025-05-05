@@ -41,3 +41,20 @@ qutebrowser 是一款轻量级、键盘驱动的浏览器，但也存在一些�
 这些缺陷使得 qutebrowser 更适合极客或 Vim 爱好者，而非普通用户。
 
 考虑到这些硬伤，我无法将它作为主力浏览器来使用。然而现实是，我使用qutebrowser的时间越来越多。
+
+按键的功能随模式的变化而变化。
+
+In qutebrowser, all keybindings are mapped to commands.
+
+config-write-py
+
+config-diff
+
+config.unbind
+
+
+[cjx82630/cjxlist](https://github.com/cjx82630/cjxlist)
+
+
+
+## 参考阅读
