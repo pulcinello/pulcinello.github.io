@@ -68,9 +68,6 @@ Pixelbook Go搭载Chrome OS，系统支持持续到2029年。虽然Chrome OS能�
 #### 按键重映射
 
 安装完Fedora后，键盘顶部的功能键会被识别为F1-F10，我们可以使用社区提供的脚本还原其功能，并将Chrome OS特有的Seach和Assistant按键重映射为Caps Lock和Meta。  
-
-将Seach和Assistant键重映射为Caps Lock和Meta
-
   
 具体操作如下：
 
