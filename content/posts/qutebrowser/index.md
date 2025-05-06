@@ -8,13 +8,7 @@ draft = true
 “qutebrowser入门：极简浏览器的极致体验”  
 “为什么选择qutebrowser？效率浏览新选择”  
 “qutebrowser键盘党指南：告别鼠标的浏览方式”  
-“qutebrowser配置全解析：打造你的专属浏览器”  
-“从Vim到qutebrowser：键盘控的完美过渡”  
-“qutebrowser深度评测：轻量与强大的平衡”  
-“qutebrowser插件推荐：提升你的浏览效率”  
-“qutebrowser vs. 主流浏览器：谁更适合极客？”  
-“qutebrowser快捷键大全：一键掌控你的网页”  
-“qutebrowser进阶技巧：解锁隐藏功能”
+“qutebrowser配置全解析：打造你的专属浏览器”  1
 这些篇名涵盖了入门、功能、配置和比较等主题，适合不同类型的读者。
 
 qutebrowser 是一款轻量级、键盘驱动的浏览器，但也存在一些缺陷，可能会影响某些用户的使用体验：
@@ -52,9 +46,11 @@ config-diff
 
 config.unbind
 
+### 广告过滤
+[cjxlist](https://github.com/cjx82630/cjxlist)
+[xinggsf/Adblock-Plus-Rule: uBlock Origin 乘风广告过滤规则](https://github.com/xinggsf/Adblock-Plus-Rule)
 
-[cjx82630/cjxlist](https://github.com/cjx82630/cjxlist)
 
-
+use [glance](https://github.com/glanceapp/glance) as homepage
 
 ## 参考阅读
