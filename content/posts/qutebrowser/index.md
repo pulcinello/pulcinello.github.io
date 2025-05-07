@@ -4,37 +4,29 @@ date = 2025-05-01T14:27:13+08:00
 draft = true
 +++
 
-以下是为qutebrowser撰写的十个文章篇名建议，篇名简洁且具有吸引力，适合介绍、教程或深度分析等内容：
-“qutebrowser入门：极简浏览器的极致体验”  
-“为什么选择qutebrowser？效率浏览新选择”  
-“qutebrowser键盘党指南：告别鼠标的浏览方式”  
-“qutebrowser配置全解析：打造你的专属浏览器”  1
-这些篇名涵盖了入门、功能、配置和比较等主题，适合不同类型的读者。
+自Chrome转向Manifest V3后，我转投Firefox已有一段时间。作为主力浏览器，Firefox于我已无可挑剔。但我一直想要一个轻量的浏览器以作备用，在某台旧机器上，这一需求尤为迫切。
 
-qutebrowser 是一款轻量级、键盘驱动的浏览器，但也存在一些缺陷，可能会影响某些用户的使用体验：
-学习曲线较陡
-依赖键盘快捷键和类 Vim 操作，习惯鼠标或传统浏览器的用户需要时间适应。
-扩展支持有限
-不支持 Chrome/Firefox 的扩展生态，仅提供用户脚本支持，功能扩展性较弱。
-界面极简，缺乏直观性
-界面设计过于简约，缺少图形化设置选项，配置需手动编辑文件，不够用户友好。
-多媒体支持不足
-对某些 DRM 内容（如 Netflix 的高清播放）支持不佳，需额外配置 Widevine 插件。
-资源占用问题
-虽然主打轻量，但基于 QtWebEngine（Chromium 内核），在某些情况下内存占用并不低。
-社区支持有限
-相比主流浏览器，社区规模较小，遇到问题时可能难以及时找到解决方案。
-跨平台一致性问题
-在某些操作系统（如 macOS）上，快捷键或功能可能存在兼容性或表现不一致的情况。
-标签管理功能较弱
-标签切换和管理的功能较基础，缺乏类似树形标签或标签分组的高级特性。
-隐私保护有限
-虽然支持自定义隐私设置，但默认配置下对追踪保护不如 Firefox 等浏览器强。
-不适合非技术用户
-配置和使用需要一定的技术背景（如编辑 config.py），对普通用户不够友好。
-这些缺陷使得 qutebrowser 更适合极客或 Vim 爱好者，而非普通用户。
+在软件仓库内一顿翻找后，[qutebrowser](https://qutebrowser.org/)——这个市占率可能不足0.1%的浏览器，成了我最后的选择。
 
-考虑到这些硬伤，我无法将它作为主力浏览器来使用。然而现实是，我使用qutebrowser的时间越来越多。
+## 为何选择qutebrowser
+
+qutebrowser基于[QtWebEngine(https://wiki.qt.io/QtWebEngine)（而QtWebEngine则基于Chromium），支持三大桌面操作系统。该浏览器始于2013年，是瑞士人Florian Bruhin在大学时期开展的个人项目，如今依旧仰赖他业余时间的开发和社区的捐助。受限于社区规模与资源，qutebrowser至今没有插件系统，在标签页分组等功能上也有所欠缺。甚至在书签/历史记录管理这样基础的功能上，qutebrowser的实现也相当简陋。然而，对比主流浏览器，qutebrowser亦有其独到之处，主要在于：
+
+- 极简的界面，提供沉浸式的网页浏览体验。
+- 键盘驱动，支持vim式的模态操作，提升浏览效率。
+- 以python脚本作为配置文件，方便多平台管理。
+
+诚然，Firefox靠着CSS主题、[Tridactyl](https://github.com/tridactyl/tridactyl)插件和[Betterfox](https://github.com/yokoffing/BetterFox)这样的项目也能达成类似的效果，实际使用起来则要费力许多。qutebrowser作为开发者与其用户群体目标相当一致的产物，版本更迭时引起的配置/插件失效的情况要少上许多。
+
+我并不是一个极简主义者，也常常懒于为了一点效率的提升而去学习一个新的东西。对于并不使用，日常网页浏览以文字内容为主的用户，相信也能从中受益
+
+也可直接跳到文末，我提供了一份配置样例，供有兴趣者入门使用。
+
+## qutebrowser初印象
+
+对Emacs用户而言，其hackable之姿可谓昭然若揭
+
+## 像配置vim一样配置你的浏览器
 
 按键的功能随模式的变化而变化。
 
@@ -44,13 +36,23 @@ config-write-py
 
 config-diff
 
+use [glance](https://github.com/glanceapp/glance) as homepage
+
 config.unbind
+
+## 使用技巧与建议
 
 ### 广告过滤
 [cjxlist](https://github.com/cjx82630/cjxlist)
 [xinggsf/Adblock-Plus-Rule: uBlock Origin 乘风广告过滤规则](https://github.com/xinggsf/Adblock-Plus-Rule)
 
+### 油猴
 
-use [glance](https://github.com/glanceapp/glance) as homepage
+### mpv
+
+### 使用用户脚本扩充浏览器功能
+
 
 ## 参考阅读
+
+- 我的配置样例
