@@ -10,15 +10,13 @@ draft = true
 
 ## 为何选择qutebrowser
 
-qutebrowser基于[QtWebEngine(https://wiki.qt.io/QtWebEngine)（而QtWebEngine则基于Chromium），支持三大桌面操作系统。该浏览器始于2013年，是瑞士人Florian Bruhin在大学时期开展的个人项目，如今依旧仰赖他业余时间的开发和社区的捐助。受限于社区规模与资源，qutebrowser至今没有插件系统，在标签页分组等功能上也有所欠缺。甚至在书签/历史记录管理这样基础的功能上，qutebrowser的实现也相当简陋。然而，对比主流浏览器，qutebrowser亦有其独到之处，主要在于：
+qutebrowser基于[QtWebEngine](https://wiki.qt.io/QtWebEngine)（而QtWebEngine则基于Chromium），支持三大桌面操作系统。该浏览器始于2013年，是瑞士人Florian Bruhin在大学时期开展的个人项目，如今依旧仰赖他业余时间的开发和社区的捐助。受限于社区规模与资源，qutebrowser至今没有插件系统，在标签页分组等功能上也有所欠缺。甚至在书签/历史记录管理这样基础的功能上，qutebrowser的实现也相当简陋。然而，对比主流浏览器，qutebrowser亦有其独到之处，主要在于：
 
+- 键盘驱动，支持vim式的模态操作。
 - 极简的界面，提供沉浸式的网页浏览体验。
-- 键盘驱动，支持vim式的模态操作，提升浏览效率。
 - 以python脚本作为配置文件，方便多平台管理。
 
-诚然，Firefox靠着CSS主题、[Tridactyl](https://github.com/tridactyl/tridactyl)插件和[Betterfox](https://github.com/yokoffing/BetterFox)这样的项目也能达成类似的效果，实际使用起来则要费力许多。qutebrowser作为开发者与其用户群体目标相当一致的产物，版本更迭时引起的配置/插件失效的情况要少上许多。
-
-我并不是一个极简主义者，也常常懒于为了一点效率的提升而去学习一个新的东西。对于并不使用，日常网页浏览以文字内容为主的用户，相信也能从中受益
+诚然，Firefox靠着CSS主题、[Tridactyl](https://github.com/tridactyl/tridactyl)这样的插件也能达成类似的效果，对应功能上的结合却远不如qutebrowser那般紧密，版本更迭时引起的配置/插件失效的问题亦时有发生。
 
 也可直接跳到文末，我提供了一份配置样例，供有兴趣者入门使用。
 
@@ -27,6 +25,30 @@ qutebrowser基于[QtWebEngine(https://wiki.qt.io/QtWebEngine)（而QtWebEngine�
 对Emacs用户而言，其hackable之姿可谓昭然若揭
 
 ## 像配置vim一样配置你的浏览器
+```
+qutebrowser
+├── autoconfig.yml
+├── bookmarks
+│   └── urls
+├── config.py
+├── configs
+│   ├── aliases.py
+│   ├── interface.py
+│   ├── keymaps.py
+│   ├── options.py
+│   └── theme.py
+├── greasemonkey
+├── qsettings
+│   └── QtProject.conf
+├── quickmarks
+└── userscripts
+    ├── gh-read-all.js
+    ├── localhost
+    ├── markdownit
+    ├── open_or_search
+    ├── qr
+    └── readability
+```
 
 按键的功能随模式的变化而变化。
 
