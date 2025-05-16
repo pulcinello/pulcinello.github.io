@@ -1,6 +1,6 @@
 baseURL = 'https://pulcinello.github.io'
 languageCode = 'en-us'
-title = 'thom the obscure'
+title = 'the cold comfort'
 theme = 'typo'
 
 [taxonomies]
@@ -19,9 +19,7 @@ showFooter = false
 # Intro on main page, content is markdown
 # homeIntroTitle = 'Hi!'
 homeIntroContent = """
-> 我们每天都更老一些，对某些人来说是财富，对另一些人来说是贫困，
-> 
-> 我写诗，梦想着写一部小说。
+> There is a time for reciting poems and a time for fists.
 """
 
 # Collection to display on home

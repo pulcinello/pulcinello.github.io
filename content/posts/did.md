@@ -9,8 +9,7 @@ draft = false
 ## 听的
 很难选，挑几首比较常听的。
 - Ben Franklin _by_ Snail Mail
-- Romanticist _by_ [Yves Tumor](https://yvestumor.info/)
-- Running Away _by_ Cate Le Bon
+- Romanticist _by_ Yves Tumor
 - Little Things _by_ Big Thief
 - Reality Check _by_ Noname
 
