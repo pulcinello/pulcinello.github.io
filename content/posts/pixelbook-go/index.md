@@ -52,7 +52,7 @@ Pixelbook Go搭载Chrome OS，系统支持持续到2029年。虽然Chrome OS能�
 以下是不同系统在这台机器上的表现：
 
 *   Windows：需付费购买专用驱动以使用。
-*   Linux：除摄像头外均可工作。
+*   Linux：除摄像头外均可工作。[^1]
 *   Hackintosh: 驱动不全，不推荐。
 
 显然，Linux是最佳之选。在发行版的选择上，笔者推荐Fedora。在制作好启动盘后，系统安装过程与寻常无异。Fedora提供图形化安装界面，全程无需联网，用时不会超过20分钟。
@@ -91,3 +91,5 @@ Linux最大限度地发挥了这台旧机器的使用潜力。如今我把它放
 
 *   [Chromebook 免拆机救砖教程](https://hollywoo.de/posts/unbrick/)
 *   [Keyboard remap guide](https://github.com/Alekamerlin/keyaboard-remap-guide)：一份Linux下按键重映射的简明指南。
+
+[^1]: 你可以利用如[webcamize](https://github.com/cowtoolz/webcamize?tab=readme-ov-file)这样的软件将相机作为你电脑的摄像头。
