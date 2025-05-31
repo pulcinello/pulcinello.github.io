@@ -75,6 +75,15 @@ config.unbind
 ### 使用用户脚本扩充浏览器功能
 
 
+fuzzy buku bookmarks
+```sh
+#!/usr/bin/env sh
+
+buku -j -f4 -p | jq -r '.[] | "\u001b[34m\(.title)\u001b[0m \u001b[90m[\(.index)]\u001b[0m\n\(.uri)\n\(.tags | if . == "" then "" else "\u001b[32m#" + (split(",") | join(" #")) + "\u001b[0m\n" end)"' | perl -0 -pe 's/\n\n/\0/gm' | fzf --read0 --ansi --multi --highlight-line --layout reverse --gap --wrap --cycle --bind alt-a:toggle-all
+```
+
+
 ## 参考阅读
 
 - 我的配置样例
+- [A Practical Guide to fzf: Building a File Explorer](https://thevaluable.dev/practical-guide-fzf-example/)

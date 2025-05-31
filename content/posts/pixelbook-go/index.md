@@ -89,7 +89,7 @@ Linux最大限度地发挥了这台旧机器的使用潜力。如今我把它放
 
 ## 参考阅读
 
-*   [Chromebook 免拆机救砖教程](https://hollywoo.de/posts/unbrick/)
+*   [Chromebook免拆机救砖教程](https://hollywoo.de/posts/unbrick/)
 *   [Keyboard remap guide](https://github.com/Alekamerlin/keyaboard-remap-guide)：一份Linux下按键重映射的简明指南。
 
 [^1]: 你可以利用如[webcamize](https://github.com/cowtoolz/webcamize?tab=readme-ov-file)这样的软件将相机作为你电脑的摄像头。
