@@ -4,7 +4,7 @@ date = 2025-05-01T14:27:13+08:00
 draft = true
 +++
 
-自Chrome转向Manifest V3后，我转投Firefox已有一段时间。作为主力浏览器，Firefox于我已无可挑剔。但我一直想要一个轻量的浏览器以作备用，在某台旧机器上，这一需求尤为迫切。
+自Chrome转向Manifest V3后，
 
 在软件仓库内一顿翻找后，[qutebrowser](https://qutebrowser.org/)——这个市占率可能不足0.1%的浏览器，成了我最后的选择。
 
@@ -63,6 +63,15 @@ use [glance](https://github.com/glanceapp/glance) as homepage
 config.unbind
 
 ## 使用技巧与建议
+
+必需的插件，大致有这么几类
+
+- 广告过滤
+- 油猴脚本
+- 密码填充
+- 阅读模式
+- Grammarly 写作助手
+- 网页裁剪
 
 ### 广告过滤
 [cjxlist](https://github.com/cjx82630/cjxlist)
